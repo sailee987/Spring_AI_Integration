@@ -1,0 +1,12 @@
+spring.application.name=recursive-advisor-demo
+
+# OpenRouter API key — get yours at https://openrouter.ai/keys
+spring.ai.openai.api-key=YOUR_OPENROUTER_API_KEY_HERE
+spring.ai.openai.base-url=https://openrouter.ai/api/v1
+spring.ai.openai.chat.options.model=openrouter/free
+
+server.port=8080
+
+# Open-Meteo (free, no API key required)
+weather.geocoding.url=https://geocoding-api.open-meteo.com/v1/search
+weather.forecast.url=https://api.open-meteo.com/v1/forecast
